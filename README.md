@@ -2,17 +2,17 @@
 Validates Swedish social security numbers.
 
 ## Motivation for project
-Side project build during Java developmer education.
+Side project build during Java developer education.
 
 ## Technologies
-Java
-Javalin
+Java <br>
+Javalin <br>
 Maven
 
 ## Status
-Backend Completed
+Backend Completed <br>
 Fromtend Completed
 
-## Screenshots
+
 
 
