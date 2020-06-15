@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    font-family: "Helvetica Neue";
+    background-color: #0B0C10;
+    align-self: center;
+}
+
+h1 {
+    margin-top: 70px;
+    font-size: 4rem;
+    align-self: center;
+    text-align: center;
+    color: #66FCF1;
+}
+
+.instruction {
+    margin-top: 2px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #45A29E;
+}
+
+#input {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    column-gap: 5px;
+}
+
+input {
+    font-size: 1.5rem;
+    justify-self: end;
+    text-align: center;
+    color: #C5C6C7;
+    border: #45A29E solid;
+    width: 15rem;
+}
+
+button {
+    grid-column: 2;
+    font-size: 1.5rem;
+    justify-self: start;
+    color: #C5C6C7;
+    background-color: #45A29E;
+    border-radius: 4px;
+    width: 7rem;
+}
+
+.result {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#reason {
+    font-size: 3rem;
+    text-align: center;
+    color: #C5C6C7;
+}
+
+.redirect {
+    grid-column: 1/2;
+    grid-row: 2 / 3;
+    font-size: 1.5rem;
+    justify-self: center;
+    color: #C5C6C7;
+    background-color: #45A29E;
+    border: #C5C6C7 1px solid;
+    border-radius: 4px;
+    width: 20rem;
+}
+
